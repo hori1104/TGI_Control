@@ -15,14 +15,14 @@ The following circuits for temperature measurement circuits for the Peltier elem
 ![Image](https://github.com/user-attachments/assets/0e84643c-10f6-4672-8f42-789a341d92fb)
 
 # Usage
-By using Experiment1.py, the Peltier elements used for cold stimulation can be continuously cooled from 25°C to 20°C over a specified duration. Among the six Peltier elements,
+By using "Experiment1.py", the Peltier elements used for cold stimulation can be continuously cooled from 25°C to 20°C over a specified duration. Among the six Peltier elements,
 two are maintained at a constant 41°C, while the other four are initially held at a constant 25°C before commencing cooling to 20°C. 
 In the code, X, Y, Z, L, M, and N distinguish the six Peltier elements, which are arranged as shown in the figure below.
 
 
 ![Image](https://github.com/user-attachments/assets/c079b54a-216a-45f1-9938-fc2c201fed83)
 
-Experiment2.py is a tool for synchronizing the temperature changes of the Peltier elements with changes in the VR environment. 
+"Experiment2.py" is a tool for synchronizing the temperature changes of the Peltier elements with changes in the VR environment. 
 This code is designed to transmit the elapsed time since the start of the Peltier element temperature control to Unity using socket communication, 
 thereby enabling synchronization with the VR application running within Unity.
 
