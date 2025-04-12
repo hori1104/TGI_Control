@@ -15,6 +15,10 @@ The following circuits for temperature measurement circuits for the Peltier elem
 ![Image](https://github.com/user-attachments/assets/0e84643c-10f6-4672-8f42-789a341d92fb)
 
 # Usage
+By using Experiment1.py, the Peltier elements used for cold stimulation can be continuously cooled from 25°C to 20°C over a specified duration. Among the six Peltier elements,
+two are maintained at a constant 41°C, while the other four are initially held at a constant 25°C before commencing cooling to 20°C. 
+In the code, X, Y, Z, L, M, and N distinguish the six Peltier elements, which are arranged as shown in the figure below.
+
 
  
 # Note
