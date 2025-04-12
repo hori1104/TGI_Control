@@ -8,20 +8,14 @@ This tutorial will guide you through the temperature control methods for Peltier
  
 # Requirement
 Peltier elements × 6
-Raspberry Pi 4 Model B
-The following circuits for temperature measurement circuits for the Peltier elements (× 6)
 
-Unity 2021.3.39f1 
+Raspberry Pi 4 Model B
+
+The following circuits for temperature measurement circuits for the Peltier elements (× 6)
+![Image](https://github.com/user-attachments/assets/0e84643c-10f6-4672-8f42-789a341d92fb)
 
 # Usage
- 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+
  
 # Note
  
