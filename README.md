@@ -33,7 +33,9 @@ To prevent damage to the Peltier elements, it is recommended to specify a coolin
  
 # Author
  Shinnosuke Hori
+ 
  Department of Pure and Applied Physics, Graduate School of Advanced Science and engineering, Waseda University
+ 
  noether@toki.waseda.jp
  
 # License
