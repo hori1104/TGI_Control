@@ -26,6 +26,10 @@ In the code, X, Y, Z, L, M, and N distinguish the six Peltier elements, which ar
 This code is designed to transmit the elapsed time since the start of the Peltier element temperature control to Unity using socket communication, 
 thereby enabling synchronization with the VR application running within Unity.
 
+SocketManager.cs" is the code Unity uses to receive elapsed time data from the Raspberry Pi.
+"colorsocket.cs" and "scalesocket.cs" are the codes that modify objects within the VR environment based on the elapsed time data.
+TGI_Display_Peltier_Bracket is the CAD/STL file for the bracket designed to secure the Peltier element in the TGI display.
+
 # Note
 Please ensure that the temperature of the Peltier elements does not overshoot and reach temperatures harmful to the human body.
 
